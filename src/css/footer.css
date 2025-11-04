@@ -1,0 +1,25 @@
+footer {
+    background: var(--bgd-secundario);
+    padding: 70px 100px;
+    color: var(--bgd-principal);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+.img-logo-footer {
+    width: 100px;
+}
+.list-footer {
+    list-style: none;
+    border-left: 1px solid var(--bgd-principal);
+    padding-left: 30px;
+}
+.list-footer li a {
+    text-decoration: none;
+    color: var(--bgd-principal);
+}
+.list-footer li a:hover {
+    text-decoration: underline;
+}
